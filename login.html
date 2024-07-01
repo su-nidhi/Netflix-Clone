@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: black;
+        /* height: 700px;
+        opacity: 0.5;
+        width: 100%; */
+       
+
+    }
+    .bck{
+        background-image: url(./asserts/images/bg.jpg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+       
+    }
+  
+    .box{
+        color: white;
+        background-color: #090808;
+        width: 440px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+margin: 20px;
+border-radius: 10px;
+
+
+    }
+    input, button{
+        width: 250px;
+        height: 35px;
+        border-radius: 5px;
+        padding: 10px;
+        color: #fff;
+        background-color: gray;
+        cursor: pointer; 
+   border: 1px solid white;
+    }
+  
+   
+    button{
+        background-color: red;
+        color: white;
+      
+    }
+   
+    .check{
+        width:15px;
+    }
+    .chkbox{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    span{ 
+      width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+   .fst{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 350px;
+    align-items: center;
+}
+   .last{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-left:90px;
+gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+::placeholder{
+    color: white;
+}
+
+</style>
+<body>
+    <main>
+    <div class="bck">
+   <div class="box">
+    <div class="fst">
+    <h1>Sign In</h1>
+    <input type="email" placeholder="Email or phone number" required>
+    <input type="password"placeholder="password" required/>
+    <!-- <input type="text" class="button" placeholder="sighn in" > -->
+   <a href="./netflix.html"><button>sighn in</button></a> 
+    <span>
+    <div class="chkbox">
+  
+    <input type="checkbox" class="check">remember me</div>
+    <p>need help</p></span>
+
+    <div class="last">
+    <p>New to netflix? <b>sighn up now</b></p>
+    <p>This page is protected by google reCAPTCHA to ensure youre not a bot <a href=""> Learn more</a></p>
+
+    </div>
+</div>
+    
+   </div> 
+</div>
+</main>
+</body>
+</html>
